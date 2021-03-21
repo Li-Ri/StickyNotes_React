@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.navbar {
+  background-color: #4ca3dd;
+}
+
+.title {
+  display: inline-block;
+  font-weight: bold;
+  padding: 16px;
+  font-size: 23px;
+  color: #333;
+}
+
+.main_nav {
+  display: inline-block;
+  width: calc(100% - 200px);
+  text-align: right;
+}
+
+.main_nav_link {
+  display: inline-block;
+  padding: 16px;
+}
+
+.main_nav_links h3 {
+  text-decoration: none;
+  color: black;
+  font-family: inherit;
+}
+
+.main_nav_link h3:hover,
+.main_nav_link h3:active {
+  border-bottom: 1px solid black;
+}
